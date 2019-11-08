@@ -10,39 +10,37 @@
 		<header class="header">
 			<div class="headermenu">
 				<div class="headermenu-netflix">
-					<img src="./assets/netflix.png" alt="Neflixlogin">
-					<input class=""  type="text" placeholder="Títulos, gente e gêneros"> 
-				</div>
-			</div>			
+					<img class="headermenu-netflix-img" src="./assets/netflix.png" alt="Neflixlogin">
+				</div>						
 			<nav class="headermenu-opções">
-					<ul>
-						<li>Início</li>
-						<li>Séries</li>
-						<li>Filmes</li>
-						<li>Adicionados recentemente</li>
-						<li>Minha lista</li>
+					<ul class="headermenu-opções-lista">
+						<li class="headermenu-opções-lista-isfarml">Início</li>
+						<li class="headermenu-opções-lista-isfarml">Séries</li>
+						<li class="headermenu-opções-lista-isfarml">Filmes</li>
+						<li class="headermenu-opções-lista-isfarml">Adicionados recentemente</li>
+						<li class="headermenu-opções-lista-isfarml">Minha lista</li>
 					</ul>
 			</nav>
+			</div>
+			<div class="headermenu-busca-bisp">				
 				<div class="headermenu-busca">
-					<img src="./assets/search.png" alt="Procurar" onclick="handleSearch()">
-					<input class="buscaInput"  type="text" placeholder="Títulos, gente e gêneros">				
+					<img  src="./assets/search.png" alt="Procurar" onclick="handleSearch()" class="headermenu-busca-lupa">
+					<input class="headermenu-busca-Input"  type="text" placeholder="Títulos, gente e gêneros">
 				</div>
 				<div class="headermenu-infantil">
 					<p>INFANTIL</p>
 				</div>
 				<div class="headermenu-sininho">
-					<img src="./assets/sininho.png" alt="Notificação">
+					<img src="./assets/sininho.png" alt="Notificação" class="headermenu-sininho-img">
 				</div>
-				<div>
-					<img src="./assets/account.png" alt="Conta">
+				<div class="headermenu-perfil">
+					<img class="headermenu-perfil-img" src="./assets/account.png" alt="Conta">
 				</div>
 			</div>			
 		</header>
-		<main class="main">
-			<h1></h1>
-			<input type="text" onchange = "handleChange (event)">
+		<main>
 		</main>
-		<script type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>
 	</body>
 </html>
 

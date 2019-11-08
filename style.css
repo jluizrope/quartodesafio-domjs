@@ -2,14 +2,61 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	list-style: none;
 }
 .header{
 	height: 4rem;
 	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.headermenu{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 50vw;
+}
+.headermenu-netflix-img{
+	height: 2rem;
+}
+.headermenu-opções{
+	display: flex;
+}
+.headermenu-opções-lista{
+	/*width: 50%;*/
+	display: flex;
+	color: white;
+/*	justify-content: space-between;*/
+}
+.headermenu-opções-lista-isfarml{
+	margin: 0 0.3rem;
+}
+.headermenu-busca-bisp{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .headermenu-busca{
 	display: flex;
 	padding: 0.25rem;
-	height: 100%;
+	width: auto;
 }
+.headermenu-busca-Input{
+	height: 50%;
+	display: none;
+}
+.headermenu-infantil{
+	color: white;
+}
+.headermenu-busca-lupa{
+	height: 40px;
+}
+.headermenu-sininho-img{
+	width: 40px;
+}
+.headermenu-perfil-img{
+	width: 50px;
+}
+
 
