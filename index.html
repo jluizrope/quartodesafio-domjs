@@ -6,43 +6,50 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body class="body" id="segundodesafio">
+	<body class="body" id="quartodesafio">
 		<header class="header">
 			<div class="headermenu">
 				<div class="headermenu-netflix">
-					<img src="./assets/netflix.png" alt="Neflixlogin">
-					<input class=""  type="text" placeholder="Títulos, gente e gêneros"> 
+					<img src="./assets/netflix.png" alt="Neflixlogin" class="headermenu-netflix-img">
 				</div>
-			</div>			
 			<nav class="headermenu-opções">
-					<ul>
-						<li>Início</li>
-						<li>Séries</li>
-						<li>Filmes</li>
-						<li>Adicionados recentemente</li>
-						<li>Minha lista</li>
+					<ul class="headermenu-opções-lista">
+						<li class="headermenu-opções-lista-isfam">Início</li>
+						<li class="headermenu-opções-lista-isfam" >Séries</li>
+						<li class="headermenu-opções-lista-isfam">Filmes</li>
+						<li class="headermenu-opções-lista-isfam">Adicionados recentemente</li>
+						<li class="headermenu-opções-lista-isfam">Minha lista</li>
 					</ul>
 			</nav>
-				<div class="headermenu-busca">
-					<img src="./assets/search.png" alt="Procurar" onclick="handleSearch()">
-					<input class="buscaInput"  type="text" placeholder="Títulos, gente e gêneros">				
+			</div>
+			<div class="headermenu-bisp">		
+				<div class="headermenu-bisp-busca">
+					<img src="./assets/search.png" alt="Procurar" onclick="ativalupa()" class="headermenu-bisp-busca-img">
+					<input type="text" placeholder="Títulos, gente e gêneros" class="headermenu-bisp-buscaInput">			
 				</div>
-				<div class="headermenu-infantil">
-					<p>INFANTIL</p>
+				<div class="headermenu-bisp-i">
+					<p class="headermenu-bisp-i-img">INFANTIL</p>
 				</div>
-				<div class="headermenu-sininho">
-					<img src="./assets/sininho.png" alt="Notificação">
+				<div class="headermenu-bisp-s">
+					<img src="./assets/sininho.png" alt="Notificação" class="headermenu-bisp-s-img">
 				</div>
-				<div>
-					<img src="./assets/account.png" alt="Conta">
+				<div class="headermenu-bisp-p">
+					<img src="./assets/account.png" alt="Conta" class="headermenu-bisp-p-img" >
 				</div>
 			</div>			
 		</header>
 		<main class="main">
-			<h1></h1>
-			<input type="text" onchange = "handleChange (event)">
+			<section class="main-section">
+				<div>
+					<img src="" class="">
+					<p class="mainsection-p"></p>
+					<button class="mainsection-b-assistir">Assistir</button>
+					<button class="mainsection-b-minhalista">Minha lista</button>
+					<button class="mainsection-b-mais informações">Mais informações</button>
+				</div>
+			</section>
 		</main>
-		<script type="text/javascript"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
 
