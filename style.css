@@ -11,10 +11,10 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .headermenu{
-	width: 55vw;
+	width: 45vw;
 	justify-content: space-around;
 	display: flex;
 }
@@ -22,7 +22,8 @@
 	height: 2rem;
 }
 .headermenu-opções{
-
+	display: flex;
+	align-items: center;
 }
 .headermenu-opções-lista{
 	color: white;
@@ -32,8 +33,9 @@
 	margin: 0 0.3rem;
 }
 .headermenu-bisp{
-	width: 38vw;
+	width: 20vw;
 	display: flex;
+
 	align-items: center;
 	justify-content: space-around;
 }
@@ -80,4 +82,55 @@
 	background-image: url("./assets/download.jpeg");
 	background-size: cover;
 }
+.headermenu-bisp-busca-img{
+	height: 2rem;
+	display: flex;
+}
+.headermenu-bisp-buscaInput{
+	height: 30px;
+	display: none;
+}
+.headermenu-menu-bisp-i{
+	display: flex;
+}
+.headermenu-bisp-i-img{
+	color: white;
+	display: flex;
+}
+.headermenu-bisp-s{
+	display: flex;
+}
+.headermenu-bisp-s-img{
+	width: 2rem;
+	display: flex;
+}
+.headermenu-bisp-p{	
+	display: flex;
+}
+.headermenu-bisp-p-img{
+	height: 2rem;
+}
+.main{
 
+}
+.main-section{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("./assets/download.jpeg");
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.main-section-ipb{
+	width: 25vw;
+	height: 20vh;	
+}
+.mainsection-b-maisinformações-img{
+	width: 10px;
+	height: 10px;
+	color: blue;
+	border-radius: 50%;
+	border: 0.5px solid blue;
+	padding: 0 5px;
+}
