@@ -35,6 +35,7 @@
 .headermenu-bisp{
 	width: 20vw;
 	display: flex;
+
 	align-items: center;
 	justify-content: space-around;
 }
@@ -43,6 +44,43 @@
 	height: 100%;
 	display: flex;
 	align-items: center;
+}
+.headermenu-bisp-busca-img{
+	height: 2rem;
+	display: flex;
+}
+.headermenu-bisp-buscaInput{
+	height: 30px;
+	display: none;
+}
+.headermenu-menu-bisp-i{
+	display: flex;
+}
+.headermenu-bisp-i-img{
+	color: white;
+	display: flex;
+}
+.headermenu-bisp-s{
+	display: flex;
+}
+.headermenu-bisp-s-img{
+	width: 2rem;
+	display: flex;
+}
+.headermenu-bisp-p{	
+	display: flex;
+}
+.headermenu-bisp-p-img{
+	height: 2rem;
+}
+.main{
+
+}
+.main-section{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("./assets/download.jpeg");
+	background-size: cover;
 }
 .headermenu-bisp-busca-img{
 	height: 2rem;
