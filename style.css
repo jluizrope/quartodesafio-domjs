@@ -6,12 +6,14 @@
 
 }
 .header{
+	width: 100vw;
 	height: 4rem;	
 	background-color: black;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	position: fixed;
 }
 .headermenu{
 	width: 45vw;
@@ -77,11 +79,41 @@
 
 }
 .main-section{
+
+}	
+.main-section{
 	height: 100vh;
 	width: 100vw;
 	background-image: url("./assets/download.jpeg");
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
+.main-section-ipb{
+	width: 25vw;
+	height: 20vh;	
+}
+.mainsection-b-maisinformações-img{
+	width: 10px;
+	height: 10px;
+	color: blue;
+	border-radius: 50%;
+	border: 0.5px solid blue;
+	padding: 0 5px;
+}
+.main-section-slides-films{
+	width: 95%;
+	justify-content: space-around;
+}
+.main-section-slides-films-ml{
+	color: white;
+}
+.main-section-slides-filmimg{
+	width: 19%;
+}
+
+
 .headermenu-bisp-busca-img{
 	height: 2rem;
 	display: flex;
@@ -109,28 +141,4 @@
 }
 .headermenu-bisp-p-img{
 	height: 2rem;
-}
-.main{
-
-}
-.main-section{
-	height: 100vh;
-	width: 100vw;
-	background-image: url("./assets/download.jpeg");
-	background-size: cover;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-.main-section-ipb{
-	width: 25vw;
-	height: 20vh;	
-}
-.mainsection-b-maisinformações-img{
-	width: 10px;
-	height: 10px;
-	color: blue;
-	border-radius: 50%;
-	border: 0.5px solid blue;
-	padding: 0 5px;
 }
