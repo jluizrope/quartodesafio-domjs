@@ -7,3 +7,11 @@ function ativalupa (){
 		document.querySelector('.headermenu-bisp-busca').style.border = 'none'
 	}
 }
+function nextslides(){
+	document.querySelector('.main-section-slides-films-ml-milis').style.display = 'none'
+	document.querySelector('.main-section-slides-films-ml-milisback').style.display = 'flex'
+}
+function previouslides(){
+	document.querySelector('.main-section-slides-films-ml-milisback').style.display = 'none'
+	document.querySelector('.main-section-slides-films-ml-milis').style.display = 'flex'
+}

@@ -5,6 +5,9 @@
 	list-style: none;
 
 }
+.body{
+	background-color: #141414;
+}
 .header{
 	width: 100vw;
 	height: 4rem;	
@@ -37,7 +40,6 @@
 .headermenu-bisp{
 	width: 20vw;
 	display: flex;
-
 	align-items: center;
 	justify-content: space-around;
 }
@@ -79,20 +81,20 @@
 
 }
 .main-section{
-
-}	
-.main-section{
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	background-image: url("./assets/download.jpeg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	display: flex;
-	justify-content: center;
 	align-items: flex-end;
+	align-content: space-around;
 }
-.main-section-ipb{
+.main-section-amilismi{
 	width: 25vw;
-	height: 20vh;	
+	height: 20vh;
+	/*background-color: white;*/
+	justify-content: flex-end;	
 }
 .mainsection-b-maisinformações-img{
 	width: 10px;
@@ -102,43 +104,51 @@
 	border: 0.5px solid blue;
 	padding: 0 5px;
 }
-.main-section-slides-films{
+.main-section-slides{
+	display: flex;
+	flex-direction: column;
+	/*background-color: yellow;*/
+	/*justify-content: flex-end;*/
+	align-items: center;
+	/*background-color: red;*/
+}
+.main-section-slides-films-ml-milis{
+	display: flex;
 	width: 95%;
-	justify-content: space-around;
+	/*background-color: green;*/
+	justify-content: center;
 }
 .main-section-slides-films-ml{
+	margin: 0 2rem;
 	color: white;
+	align-self: flex-start;
+	/*background-color: yellow;*/
 }
 .main-section-slides-filmimg{
 	width: 19%;
+	/*background-color: blue;*/
+	margin: 0.2rem;
 }
-
-
-.headermenu-bisp-busca-img{
-	height: 2rem;
+.main-section-slides-filmimg:hover{
+	transform: scale(1.2);
+}
+.main-section-slides-films-fil{
+	margin: 0 2rem;
+	align-self: flex-start;
+	/*background-color: gray;*/
+	color: yellow;
+}
+.main-section-slides-films-filmes{
 	display: flex;
+	align-items: center;
 }
-.headermenu-bisp-buscaInput{
-	height: 30px;
+.main-section-slides-films-ml-milisback{
 	display: none;
+	align-items: center;
 }
-.headermenu-menu-bisp-i{
-	display: flex;
-}
-.headermenu-bisp-i-img{
+.main-section-slides-films-ml-milis-seta{
+	font-size: 80px;
 	color: white;
-	display: flex;
+	align-items: center;
 }
-.headermenu-bisp-s{
-	display: flex;
-}
-.headermenu-bisp-s-img{
-	width: 2rem;
-	display: flex;
-}
-.headermenu-bisp-p{	
-	display: flex;
-}
-.headermenu-bisp-p-img{
-	height: 2rem;
-}
+
